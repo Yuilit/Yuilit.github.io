@@ -119,6 +119,30 @@
 	</ul>
 	<div class="post_content" data-title="{{ page.title }}" data-date="{% if page.date %}{{ page.date | date: '%B %-d, %Y' }}{% endif %}">
 		{{ content }}
+		 <!-- 只在文章页面显示评论（有 date 字段的就是文章） -->
+    {% if page.date %}
+    <div class="giscus-wrapper">
+        <h3 style="font-family: 'Courier New', monospace; font-size: 14px; margin: 30px 0 15px 0; padding-top: 20px; border-top: 1px solid #808080;">
+            💬 评论区
+        </h3>
+        <script src="https://giscus.app/client.js"
+        data-repo="Yuilit/Yuilit.github.io"
+        data-repo-id="R_kgDOSqEodQ"
+        data-category="Ideas"
+        data-category-id="DIC_kwDOSqEodc4C9_2w"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+		</script>
+    </div>
+    {% endif %}
+</div>
 	</div>
 </div>
 {% endif %}
