@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<ul>
+	{% for post in site.tags[page.tag] %}
+	<li>
+		{% include post_icon.html post=post %}
+		<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+	</li>
+	{% endfor %}
+</ul>

@@ -1,0 +1,9 @@
+{%- if include.post.icon -%}
+	<img src="{{ site.baseurl }}/assets/icons/{{ include.post.icon }}" 
+	     title="{{ include.post.title }}" 
+	     width="64" 
+	     height="64">
+{%- else -%}
+	<img src="{{ site.baseurl }}/assets/img/file.ico" 
+	     title="{{ include.post.title }}">
+{%- endif -%}

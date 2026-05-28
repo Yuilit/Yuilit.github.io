@@ -1,0 +1,14 @@
+<ul class="topbar">
+<div style="display: flex; gap: 15px;">
+	<a href="{{ site.baseurl }}/about" target="_self"><li><u>关</u>于</li></a>
+    <a href="#" id="random-simple" style="text-decoration: none; color: black;"><li><u>随</u>便看看</li></a>
+</div>
+</ul>
+
+<script>
+document.getElementById('random-simple').addEventListener('click', function(e) {
+    e.preventDefault();
+    const posts = [{% for post in site.posts %}"{{ site.baseurl }}{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
+    window.location.href = posts[Math.floor(Math.random() * posts.length)];
+});
+</script>
