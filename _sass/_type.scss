@@ -23,6 +23,8 @@ header p strong {
 .project-summary {
   font-size: 0.85rem;   /* 调小，可按需改 0.8rem / 0.9rem */
   color: #888;          /* 浅灰色，可按需改 #999 / #aaa */
+  margin-top: 0.25rem;
+  line-height: 1.5;
 }
 
 a,a:visited {
