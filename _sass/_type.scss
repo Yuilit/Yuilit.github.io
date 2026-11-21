@@ -79,3 +79,43 @@ pre {
 .date {
   opacity: 0.6;
 }
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap; /* 移动端友好 */
+}
+
+.random-btn {
+  background: #111;
+  color: #fff;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.random-btn:hover {
+  background: #333;
+  transform: scale(1.05);
+}
+
+#site-description {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  will-change: opacity, transform;
+}
+
+#site-description .project-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: opacity 0.2s ease;
+}
+
+#site-description .project-link:hover {
+  opacity: 0.7;
+}
