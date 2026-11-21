@@ -20,6 +20,11 @@ header p strong {
     font-weight: bold;
 }
 
+.project-summary {
+  font-size: 0.85rem;   /* 调小，可按需改 0.8rem / 0.9rem */
+  color: #888;          /* 浅灰色，可按需改 #999 / #aaa */
+}
+
 a,a:visited {
   color: black;
   font-weight: bold;
