@@ -1,21 +1,23 @@
 ---
 layout: page
-title: 关于
+title: 投稿
 ---
 
-## Ultra - Super fast Jekyll theme 
+## 关于本站
 
-Super fast, minimal one-column portfolio/blog theme built for Jekyll. Theme weighs under <strong>2kb</strong>. Perfect for your personal website, blog and portfolio.
+一个收集人类需求/想法/方向的自留地
 
-### Key features
+## 投稿格式
 
-- seo optimized
-- weighs under 2kb
-- portfolio/blog pages
-- AAA, 100/100 scores on Lighthouse, Gmetrix and Webpagetest
-- responsive
-- inline css
-- compressed css, html
-- sitemap
-- robots.txt
-- atom feed
+- 一个方向/需求/短语
+- 一句吸引人的奇怪句子（summary）
+- 补充内容，例如一些让人一眼摸不着头脑的存在23333
+
+### 一些声明
+
+投稿前，请确认：
+- 内容不违反法律法规，不包含暴力、色情、仇恨或教唆犯罪的内容。
+- 内容为自己表述，或你有权分享的内容；我们不署名，也不追溯来源。
+- 这里发布的是“想法”，不是“操作建议”——是否实践、如何实践，由观众自己判断和负责。
+- 我们保留不收录、不解释、不通知的权利。
+- 投稿即视为同意以上内容。
